@@ -1,12 +1,18 @@
 <div align="center">
 
-<img src="https://github.com/SP-XD/SP-XD/blob/main/images/hellocoders_rounded.gif?raw=true" alt="Hello Coders" width="60%"/> <br>
-<img src="https://github.com/SP-XD/SP-XD/blob/main/images/dev-working_rounded.gif?raw=true" alt="Workspace" width="40%"/><br> 
 
-<details>
-<p><strong> <summary> 🎧 Busy coding & Vibing to : </summary> </strong></p>
-[![Spotify](https://spotify-readme.sp-xd.vercel.app/api/spotify)](https://open.spotify.com/user/somnathpaul)
-</details>
+<img src="https://github.com/user-attachments/assets/538498e8-7c25-4dc9-ac24-dd4ed6455233" alt="Workspace" width="100%"/><br> 
+<!-- Social Links -->
+<p align="center">
+  <a href="https://www.linkedin.com/in/ibrahim-almaita-1ba030380" target="_blank">
+    <img src="https://img.shields.io/badge/LinkedIn-Ibrahim%20Almaita-0077B5?style=flat&logo=linkedin&logoColor=white"/>
+  </a>
+  <a href="https://www.instagram.com/iibr_m1" target="_blank">
+    <img src="https://img.shields.io/badge/Instagram-@iibr_m1-E4405F?style=flat&logo=instagram&logoColor=white"/>
+  </a>
+</p>
+
+
 
 ![Totals Hits](https://komarev.com/ghpvc/?username=ibrahimalmaita&style=flat&color=orange&label=PROFILE+VIEWS)
 [![telegram badge](https://img.shields.io/badge/Contact_Me-Telegram-blue?style=flat&logo=telegram)](https://t.me/YOUR_TELEGRAM_USERNAME) <br>
