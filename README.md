@@ -1,7 +1,7 @@
 <div align="center">
 
+![Profile GIF](pou.gif)
 
-<img src="https://github.com/user-attachments/assets/538498e8-7c25-4dc9-ac24-dd4ed6455233" alt="Workspace" width="100%"/><br> 
 <!-- Social Links -->
 <p align="center">
   <a href="https://www.linkedin.com/in/ibrahim-almaita-1ba030380" target="_blank">
