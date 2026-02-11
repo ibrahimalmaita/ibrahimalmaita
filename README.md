@@ -46,10 +46,3 @@
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=flat&logo=git&logoColor=white)
 
 
-// My Technical Profile
-public class IbrahimAlmaita : Developer {
-    string Name = "Ibrahim Almaita";
-    string University = "Zarqa University";
-    string[] Roles = { "Game Dev", "Web Dev", "Graphic Designer" };
-    string[] Languages = { "C#", "C++", "Java", "Python" };
-}
