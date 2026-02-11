@@ -45,7 +45,7 @@
 ![Figma](https://img.shields.io/badge/Figma-F24E1E?style=flat&logo=figma&logoColor=white)
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=flat&logo=git&logoColor=white)
 
-```csharp
+
 // My Technical Profile
 public class IbrahimAlmaita : Developer {
     string Name = "Ibrahim Almaita";
