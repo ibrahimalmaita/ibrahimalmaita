@@ -1,6 +1,7 @@
-<svg width="900" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg">
+<svg width="900" height="400" viewBox="0 0 900 400"
+     xmlns="http://www.w3.org/2000/svg">
 
-  <!-- خلفية متدرجة -->
+  <!-- التعريفات -->
   <defs>
     <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0%" stop-color="#1a1a1a"/>
@@ -15,14 +16,17 @@
       </feMerge>
     </filter>
   </defs>
-<!-- 🔥 هنا نضع الصورة الخلفية -->
-  <image href="WhatsApp Image 2026-02-14 at 7.11.42 AM"
+
+  <!-- 🔥 هنا نضع الصورة الخلفية -->
+  <image href="PUT_IMAGE_LINK_HERE"
          width="900"
          height="400"
          preserveAspectRatio="xMidYMid slice"/>
-  <rect width="900" height="400" fill="url(#sky)" />
 
-  <!-- غيوم متحركة -->
+  <!-- طبقة تغميق احترافية -->
+  <rect width="900" height="400" fill="#000000" opacity="0.4"/>
+
+  <!-- باقي الأنيميشن -->
   <g opacity="0.3">
     <ellipse cx="200" cy="100" rx="150" ry="40" fill="white">
       <animate attributeName="cx" values="200;700;200" dur="30s" repeatCount="indefinite"/>
@@ -61,10 +65,4 @@
     <animate attributeName="opacity" values="0.05;0.15;0.05" dur="6s" repeatCount="indefinite"/>
   </rect>
 
-  <!-- النص -->
-  
-  </text>
-
-
-</svg>
-
+ 
