@@ -1,0 +1,64 @@
+<svg width="900" height="400" viewBox="0 0 900 400" xmlns="http://www.w3.org/2000/svg">
+
+  <!-- خلفية متدرجة -->
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#1a1a1a"/>
+      <stop offset="100%" stop-color="#2e2e2e"/>
+    </linearGradient>
+
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="3" result="coloredBlur"/>
+      <feMerge>
+        <feMergeNode in="coloredBlur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect width="900" height="400" fill="url(#sky)" />
+
+  <!-- غيوم متحركة -->
+  <g opacity="0.3">
+    <ellipse cx="200" cy="100" rx="150" ry="40" fill="white">
+      <animate attributeName="cx" values="200;700;200" dur="30s" repeatCount="indefinite"/>
+    </ellipse>
+    <ellipse cx="600" cy="150" rx="180" ry="50" fill="white">
+      <animate attributeName="cx" values="600;100;600" dur="40s" repeatCount="indefinite"/>
+    </ellipse>
+  </g>
+
+  <!-- بيت -->
+  <rect x="80" y="180" width="120" height="100" fill="#f5f5f5"/>
+  <polygon points="60,180 140,120 220,180" fill="#8b2e2e"/>
+
+  <!-- نافذة متوهجة -->
+  <rect x="110" y="210" width="30" height="30" fill="#ffd966" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- أرض -->
+  <rect x="0" y="280" width="900" height="120" fill="#0d0d0d"/>
+
+  <!-- طيور -->
+  <g fill="white" opacity="0.7">
+    <polygon points="0,0 10,5 0,10">
+      <animateTransform attributeName="transform"
+        type="translate"
+        from="800 100"
+        to="-50 120"
+        dur="20s"
+        repeatCount="indefinite"/>
+    </polygon>
+  </g>
+
+  <!-- ضباب -->
+  <rect width="900" height="400" fill="white" opacity="0.05">
+    <animate attributeName="opacity" values="0.05;0.15;0.05" dur="6s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- النص -->
+  
+  </text>
+
+</svg>
