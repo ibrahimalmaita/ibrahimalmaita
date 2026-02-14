@@ -1,5 +1,5 @@
 <div align="center">
-
+<img src="ff.svg" width="100%">
 ![Profile GIF](pppppppppp.gif)
 
 <!-- Social Links -->
